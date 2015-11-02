@@ -1,0 +1,50 @@
+.modal {
+    position: absolute;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    display: block;
+    z-index: -10;
+}
+
+.modal.in {
+    z-index: 10;
+}
+
+.contents .top-btn {
+    padding: 8px;
+}
+
+.card {
+    border: 1px solid;
+    margin: 1px;
+    width: 79px;
+    height: 79px;
+    float: left;
+    line-height: 80px;
+    text-align: center;
+}
+
+.card.use {
+    background-color: gray;
+}
+
+.card.on {
+    background-color: red;
+}
+
+.winner {
+    border: 1px solid;
+    margin: 1px;
+    width: 100%;
+    height: 79px;
+    float: left;
+    line-height: 80px;
+    text-align: center;
+}
+
+.y-scroll {
+    height: 486px;
+    overflow-y: auto;
+}
